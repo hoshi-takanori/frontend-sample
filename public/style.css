@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 0.1em 0;
+}
+
+h2 {
+  margin: 0.2em 0;
+}
+
+h3 {
+  margin: 0.3em 0;
+}
+
+p {
+  margin: 0.4em 0;
+}
+
+address {
+  font-style: normal;
+}
+
+.header,
+.content,
+.footer {
+  margin: 0.5em;
+  padding: 0.5em;
+  border: solid 1px #eee;
+}
+
+.header {
+}
+
+.content {
+  margin: 0 0.5em;
+  flex: 1;
+}
+
+.footer {
+  text-align: center;
+}
