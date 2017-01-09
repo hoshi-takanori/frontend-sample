@@ -3,5 +3,11 @@
   "version": "1.0.0",
   "repository": "https://github.com/hoshi-takanori/frontend-sample.git",
   "author": "Hoshi Takanori",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "static -a 0.0.0.0 public"
+  },
+  "devDependencies": {
+    "node-static": "^0.7.9"
+  }
 }
